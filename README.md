@@ -70,6 +70,8 @@ Pour une **extraction réelle**, voir la section [Méthodes Alternatives](#méth
 - --
 
 
+# 🚀 SSL/TLS Master Secrets (SSLKEYLOGFILE format)
+
 ## Méthodes Alternatives
 
 Pour extraire **réellement** les clés TLS, trois méthodes existent :
@@ -187,8 +189,6 @@ NTSTATUS MyHook(/* params */) {
 - --
 
 
-# 🚀 SSL/TLS Master Secrets (SSLKEYLOGFILE format)
-
 ## ✨ Fonctionnalités (Version ETW)
 
 ### 1. Capture Événements Schannel
@@ -252,6 +252,8 @@ CLIENT_RANDOM <64 hex chars> <96 hex chars>
 - --
 
 
+# 🚀 Requis : Droits administrateur (ETW session)
+
 ## Compilation
 
 ### Prérequis
@@ -272,7 +274,13 @@ cl.exe /EHsc /W4 /O2 /DUNICODE SSLSessionKeyExtractor.cpp /link tdh.lib advapi32
 - --
 
 
-# 🚀 Requis : Droits administrateur (ETW session)
+# 🚀 Afficher toutes les requêtes HTTP décryptées
+
+# 🚀 Afficher uniquement les POST (données sensibles)
+
+# 🚀 Filtrer par domaine
+
+# 🚀 Voir les cookies
 
 ## 🚀 Utilisation
 
@@ -312,14 +320,6 @@ ATTENTION : Contient données DEMO (pas de vrais secrets)
 
 - --
 
-
-# 🚀 Afficher toutes les requêtes HTTP décryptées
-
-# 🚀 Afficher uniquement les POST (données sensibles)
-
-# 🚀 Filtrer par domaine
-
-# 🚀 Voir les cookies
 
 ## 🚀 Utilisation Wireshark (Avec Vraies Clés)
 
@@ -433,6 +433,8 @@ Content-Length: 5242880
 - --
 
 
+# 🚀 Commentaire
+
 ## Détails Techniques
 
 ### API ETW
@@ -474,8 +476,6 @@ ULONG ProcessTrace(
 
 - --
 
-
-# 🚀 Commentaire
 
 ## Format SSLKEYLOGFILE
 
@@ -719,6 +719,14 @@ Outil 15/15 - SSLSessionKeyExtractor v1.0
 
 **FIN DU README - SSLSessionKeyExtractor**
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 ---
 
