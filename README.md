@@ -43,6 +43,8 @@
 - --
 
 
+# 🚀 SSL/TLS Master Secrets (SSLKEYLOGFILE format)
+
 ## ⚠️ LIMITATION TECHNIQUE CRITIQUE ⚠️
 
 ### Méthode ETW: Limitations
@@ -69,8 +71,6 @@ Pour une **extraction réelle**, voir la section [Méthodes Alternatives](#méth
 
 - --
 
-
-# 🚀 SSL/TLS Master Secrets (SSLKEYLOGFILE format)
 
 ## Méthodes Alternatives
 
@@ -229,6 +229,8 @@ CLIENT_RANDOM <64 hex chars> <96 hex chars>
 - --
 
 
+# 🚀 Requis : Droits administrateur (ETW session)
+
 ## Interface Utilisateur
 
 ### Colonnes du ListView
@@ -252,7 +254,13 @@ CLIENT_RANDOM <64 hex chars> <96 hex chars>
 - --
 
 
-# 🚀 Requis : Droits administrateur (ETW session)
+# 🚀 Afficher toutes les requêtes HTTP décryptées
+
+# 🚀 Afficher uniquement les POST (données sensibles)
+
+# 🚀 Filtrer par domaine
+
+# 🚀 Voir les cookies
 
 ## Compilation
 
@@ -273,14 +281,6 @@ cl.exe /EHsc /W4 /O2 /DUNICODE SSLSessionKeyExtractor.cpp /link tdh.lib advapi32
 
 - --
 
-
-# 🚀 Afficher toutes les requêtes HTTP décryptées
-
-# 🚀 Afficher uniquement les POST (données sensibles)
-
-# 🚀 Filtrer par domaine
-
-# 🚀 Voir les cookies
 
 ## 🚀 Utilisation
 
@@ -365,6 +365,8 @@ http.cookie
 - --
 
 
+# 🚀 Commentaire
+
 ## 🚀 Cas d'Usage Forensics
 
 ### 1. Analyse Malware C2
@@ -432,8 +434,6 @@ Content-Length: 5242880
 
 - --
 
-
-# 🚀 Commentaire
 
 ## Détails Techniques
 
@@ -719,6 +719,14 @@ Outil 15/15 - SSLSessionKeyExtractor v1.0
 
 **FIN DU README - SSLSessionKeyExtractor**
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
