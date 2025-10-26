@@ -20,6 +20,8 @@
 - --
 
 
+# 🚀 SSL/TLS Master Secrets (SSLKEYLOGFILE format)
+
 ## ⚠️ AVERTISSEMENT LÉGAL ⚠️
 
 ### Usage Autorisé UNIQUEMENT Pour
@@ -42,8 +44,6 @@
 
 - --
 
-
-# 🚀 SSL/TLS Master Secrets (SSLKEYLOGFILE format)
 
 ## ⚠️ LIMITATION TECHNIQUE CRITIQUE ⚠️
 
@@ -189,6 +189,8 @@ NTSTATUS MyHook(/* params */) {
 - --
 
 
+# 🚀 Requis : Droits administrateur (ETW session)
+
 ## ✨ Fonctionnalités (Version ETW)
 
 ### 1. Capture Événements Schannel
@@ -229,7 +231,13 @@ CLIENT_RANDOM <64 hex chars> <96 hex chars>
 - --
 
 
-# 🚀 Requis : Droits administrateur (ETW session)
+# 🚀 Afficher toutes les requêtes HTTP décryptées
+
+# 🚀 Afficher uniquement les POST (données sensibles)
+
+# 🚀 Filtrer par domaine
+
+# 🚀 Voir les cookies
 
 ## Interface Utilisateur
 
@@ -253,14 +261,6 @@ CLIENT_RANDOM <64 hex chars> <96 hex chars>
 
 - --
 
-
-# 🚀 Afficher toutes les requêtes HTTP décryptées
-
-# 🚀 Afficher uniquement les POST (données sensibles)
-
-# 🚀 Filtrer par domaine
-
-# 🚀 Voir les cookies
 
 ## Compilation
 
@@ -321,6 +321,8 @@ ATTENTION : Contient données DEMO (pas de vrais secrets)
 - --
 
 
+# 🚀 Commentaire
+
 ## 🚀 Utilisation Wireshark (Avec Vraies Clés)
 
 Si vous utilisez une **méthode alternative** (hooking, LSASS) pour obtenir de vraies clés :
@@ -364,8 +366,6 @@ http.cookie
 
 - --
 
-
-# 🚀 Commentaire
 
 ## 🚀 Cas d'Usage Forensics
 
@@ -719,6 +719,14 @@ Outil 15/15 - SSLSessionKeyExtractor v1.0
 
 **FIN DU README - SSLSessionKeyExtractor**
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
