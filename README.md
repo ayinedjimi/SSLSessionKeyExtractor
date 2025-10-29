@@ -1,6 +1,8 @@
 # 🚀 SSLSessionKeyExtractor
 
 
+# 🚀 SSL/TLS Master Secrets (SSLKEYLOGFILE format)
+
 ## Vue d'Ensemble
 
 **SSLSessionKeyExtractor** est un outil forensics avancé pour l'**extraction de clés de session TLS/SSL** au format **SSLKEYLOGFILE**, permettant le décryptage de trafic capturé avec Wireshark. Cet outil utilise **Event Tracing for Windows (ETW)** pour capturer les événements Schannel (implémentation TLS Windows).
@@ -19,8 +21,6 @@
 
 - --
 
-
-# 🚀 SSL/TLS Master Secrets (SSLKEYLOGFILE format)
 
 ## ⚠️ AVERTISSEMENT LÉGAL ⚠️
 
@@ -71,6 +71,8 @@ Pour une **extraction réelle**, voir la section [Méthodes Alternatives](#méth
 
 - --
 
+
+# 🚀 Requis : Droits administrateur (ETW session)
 
 ## Méthodes Alternatives
 
@@ -189,7 +191,13 @@ NTSTATUS MyHook(/* params */) {
 - --
 
 
-# 🚀 Requis : Droits administrateur (ETW session)
+# 🚀 Afficher toutes les requêtes HTTP décryptées
+
+# 🚀 Afficher uniquement les POST (données sensibles)
+
+# 🚀 Filtrer par domaine
+
+# 🚀 Voir les cookies
 
 ## ✨ Fonctionnalités (Version ETW)
 
@@ -230,14 +238,6 @@ CLIENT_RANDOM <64 hex chars> <96 hex chars>
 
 - --
 
-
-# 🚀 Afficher toutes les requêtes HTTP décryptées
-
-# 🚀 Afficher uniquement les POST (données sensibles)
-
-# 🚀 Filtrer par domaine
-
-# 🚀 Voir les cookies
 
 ## Interface Utilisateur
 
@@ -282,6 +282,8 @@ cl.exe /EHsc /W4 /O2 /DUNICODE SSLSessionKeyExtractor.cpp /link tdh.lib advapi32
 - --
 
 
+# 🚀 Commentaire
+
 ## 🚀 Utilisation
 
 ### Lancement
@@ -320,8 +322,6 @@ ATTENTION : Contient données DEMO (pas de vrais secrets)
 
 - --
 
-
-# 🚀 Commentaire
 
 ## 🚀 Utilisation Wireshark (Avec Vraies Clés)
 
@@ -719,6 +719,14 @@ Outil 15/15 - SSLSessionKeyExtractor v1.0
 
 **FIN DU README - SSLSessionKeyExtractor**
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
